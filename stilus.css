@@ -1,0 +1,107 @@
+body{
+    background-image: url(kepek/black.png);
+}
+main{
+    background-color: rgb(168, 167, 167);
+   width: 90%;
+   max-width: 900px;
+   margin: auto;
+   box-sizing: border-box;
+}
+header{
+    box-sizing: border-box;
+    background-image: url(kepek/game.jpg);
+    height: 300px;
+    background-size: cover;
+}
+/*menü*/
+nav{
+    box-sizing: border-box;
+    grid-area: n;
+    text-decoration: overline;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   background-color: rgb(44, 44, 44);
+  }
+  
+  nav li {
+    float: left;
+    border-right:1px solid rgb(255, 253, 253);
+  }
+  
+ nav  li:last-child {
+    border-right: none;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover:not(.active) {
+    background-color:rgb(230, 156, 20);
+  }
+  
+  .active {
+    background-color: rgb(230, 156, 20);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(252, 252, 252);
+  }
+  
+  /*Article */
+article{
+    box-sizing: border-box;
+    grid-area: a;
+}
+.bekezdes{
+    font-size: 15px;
+    background-color: rgb(172, 168, 168);
+}
+p{
+    text-align: initial;
+}
+h2{
+    font-size: 25px;
+}
+
+/*twitcherkep*/
+#gamerkep{
+    text-align: right;
+    width: 90%;
+    height: 50%;
+}
+/*táblázat*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  /*aljzat*/
+  footer{
+    box-sizing: border-box;
+    grid-area: f;
+    background-color:  rgb(228, 176, 7);
+    text-align: center;
+} 
